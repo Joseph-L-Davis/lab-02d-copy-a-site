@@ -1,0 +1,318 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(206, 206, 206);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  width: 1452px;
+  height: 1500px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 415px 1fr;
+  background-color: rgb(206, 206, 206);
+
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+}
+
+.left-side {
+  width: 466px;
+  height: 871px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 2px;
+}
+
+.left-side p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 466px;
+  height: 30px;
+  background-color: rgb(114, 65, 1);
+  color: white;
+  font-size: 1.3em;
+  border: 0;
+  padding: 0;
+}
+
+.left-side section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(206, 206, 206);
+}
+
+.left-side .players {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.left-side .teams {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.left-side .seasons {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.left-side .leaders {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.left-side .active-player {
+  height: 200px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: center;
+  border: solid 1px black;
+  position: relative;
+  top: 50px;
+  left: 13px;
+}
+
+.view-player {
+  position: relative;
+  top: 5px;
+  left: 2px;
+}
+
+.team-btn {
+  background-color: antiquewhite;
+  width: 150px;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  left: 5px;
+  background-image: linear-gradient(white, whitesmoke);
+}
+
+.player-btn {
+  background-color: antiquewhite;
+  width: 150px;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  background-image: linear-gradient(white, whitesmoke);
+}
+
+.go-btn {
+  background-color: rgb(163, 140, 140);
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+
+.middle {
+  width: 466px;
+  height: 871px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px 2px;
+}
+
+.middle section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(206, 206, 206);
+}
+
+.middle .players {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.middle .teams {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.middle .seasons {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.middle .leaders {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.middle p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 466px;
+  height: 30px;
+  background-color: rgb(114, 65, 1);
+  color: white;
+  font-size: 1.3em;
+}
+
+.right-side {
+  width: 466px;
+  height: 871px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 2px;
+}
+
+.right-side section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(206, 206, 206);
+}
+
+.right-side .players {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.right-side .teams {
+  background-color: rgb(206, 206, 206);
+  height: 40px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  border: 0;
+  pad: 0;
+}
+
+.right-side p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 466px;
+  height: 30px;
+  background-color: rgb(114, 65, 1);
+  font-size: 1.5em;
+  color: white;
+  font-size: 1.3em;
+}
+
+header {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: 5px solid black;
+  background-color: white;
+  position: relative;
+  right: 8px;
+}
+
+header img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+
+}
+
+header input {
+  position: relative;
+  left: 790px;
+  bottom: 50px;
+  width: 400px;
+  height: 40px;
+  font-size: 1.3em;
+}
+
+header button {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  left: 1200px;
+  bottom: 90px;
+  background-color: orange;
+  color: white;
+  border-radius: 5%;
+  padding: 0;
+  border: solid 1px gainsboro;
+  font-size: 1.3em;
+}
